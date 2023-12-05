@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap");
+
+:root {
+ --background: #f5f1e6;
+ --text: #872837;
+ --radius: 0.8rem;
+ --darker: #8f857c;
+}
+
+body {
+ font-family: "Lusitana", serif;
+}

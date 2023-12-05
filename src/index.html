@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="apple-touch-icon" sizes="180x180" href="public/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="public/favicon/site.webmanifest" />
+  <link rel="stylesheet" href="globals.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+   tailwind.config = {
+    theme: {
+     extend: {
+      colors: {
+       background: "var(--background)",
+       text: "var(--text)",
+       darker: "var(--darker)",
+      },
+     },
+    },
+   };
+  </script>
+  <title>Brinkley Hill</title>
+ </head>
+ <body class="bg-background text-text p-5">
+  <h1 class="text-3xl font-extrabold">Brinkley Hill</h1>
+  <h2 class="text-lg italic">Software Developer & Tester</h2>
+  <hr class="border-darker hover:border-text duration-500 pb-2" />
+
+  <h3 class="font-semibold">Currently</h3>
+  <ul class="indent-2 grid gap-2 pb-2">
+   <div>
+    <li class="text-lg">Quality Analyist Engineer</li>
+    <li class="italic text-sm indent-4">Liberty Univeristy - January 2022</li>
+   </div>
+   <div>
+    <li class="text-lg"><a href="https://boardmate.app">BoardMate</a></li>
+    <li class="italic text-sm indent-4">Founder - August 2023</li>
+   </div>
+  </ul>
+
+  <h3 class="font-semibold">Education</h3>
+  <ul class="indent-2 grid gap-2">
+   <div>
+    <li class="text-lg">Bachelor's: Web & Mobile Programming</li>
+    <li class="italic text-sm indent-4">Liberty Univeristy - May 2022</li>
+   </div>
+   <div>
+    <li class="text-lg"><a href="https://boardmate.app">Associate's: General Education</a></li>
+    <li class="italic text-sm indent-4">Central Virginia Community College - April 2020</li>
+   </div>
+  </ul>
+  <h3 class="font-semibold">Reach Out</h3>
+  <ul class="indent-2 grid gap-2">
+   <li class="text-lg">Email: <span class="italic">brink@brinkley.dev</span> </li>
+   <li class="text-lg">Twitter: <span class="italic">@brink514</span> </li>
+   <li class="text-lg">LinkedIn: <span class="italic">@brinkhill</span> </li>
+   </div>
+  </ul>
+ </body>
+</html>
